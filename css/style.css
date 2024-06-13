@@ -8185,7 +8185,7 @@ h1, h2, h3, h4, h5,
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
-    color: #000000;
+    color: aliceblue;
     padding-top: .7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
@@ -8203,7 +8203,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #000000;
+    color: aliceblue;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8910,7 +8910,10 @@ h1, h2, h3, h4, h5,
   left: 0; }
 
 .ftco-hireme {
-  background: #3e64ff;
+  background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;  
   z-index: 0;
   position: relative; }
   .ftco-hireme .overlay {
@@ -8920,7 +8923,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #3e64ff;
+    background: #191919;
     opacity: .7; }
   .ftco-hireme h2 {
     color: #fff;
